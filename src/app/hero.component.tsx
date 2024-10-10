@@ -1,6 +1,6 @@
-import ArtFrameCanvas from "./frame/frame-canvas.component";
 import { VasariLogo } from "./icons";
 import Image from "next/image";
+import { ArtFrameCanvasDynamic } from "./frame/dynamic.component";
 
 export default function HeroComponent() {
 
@@ -36,7 +36,7 @@ export default function HeroComponent() {
                 width: '100%',
                 display: 'flex',
             }}>
-                <ArtFrameCanvas heightMargin={0.2} maxWidth={13} widthMargin={0.4}></ArtFrameCanvas>
+                <ArtFrameCanvasDynamic heightMargin={0.2} maxWidth={13} widthMargin={0.4}></ArtFrameCanvasDynamic>
             </div>
         </div>
     </>);

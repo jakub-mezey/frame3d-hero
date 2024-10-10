@@ -13,7 +13,6 @@ export default function Home() {
       <div className="max-w-2xl">
         <HeroComponent />
       </div>
-
     </main >
   );
 }
